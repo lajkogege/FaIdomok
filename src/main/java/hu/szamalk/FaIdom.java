@@ -15,7 +15,7 @@ public abstract  class  FaIdom  {
     public abstract double terfogat();
 
     public double suly(){
-        return 0.0;
+        return terfogat() * FaIdom.fajsuly;
     }
 
     @Override

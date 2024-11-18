@@ -8,7 +8,7 @@ public class Gomb extends FaIdom {
     }
 
     public double terfogat(){
-        return 0.0;
+        return (4 * Math.pow(sugar,3)*Math.PI)/3;
     }
 
     @Override
