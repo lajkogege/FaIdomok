@@ -14,7 +14,7 @@ public class FaIdomok {
         return 0.0;
     }
 
-    public double osszombSuly(){
+    public double osszgombSuly(){
         return 0.0;
     }
 
@@ -27,6 +27,13 @@ public class FaIdomok {
     }
 
     public void run(){
-
+        System.out.println("A programban használt idomok:");
+        for(FaIdom idom : idomok){
+            System.out.println(idom);
+        }
+        System.out.println("idomok összes sulya: "+osszSuly());
+        System.out.println("gömbök összed súlya: "+osszgombSuly());
+        System.out.println("minV: "+minV());
+        System.out.println("maxV: "+minV());
     }
 }
